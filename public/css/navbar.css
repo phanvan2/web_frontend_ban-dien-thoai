@@ -1,0 +1,72 @@
+
+/* Css navbar -------------*/
+.navbar{
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    background-color: #000;
+}
+a.name-shop{
+    font-weight: bold;
+    color:#ebcc18; 
+}
+.nav-link{
+    color:#fff; 
+}
+.nav-link:hover{
+    color: #fff; 
+}
+.dropdown-menu{
+    width: 500px;
+    text-align: center;
+}
+
+.dropdown-menu .row a{
+    text-decoration: none;
+    color: #000; 
+}
+.dropdown-menu .row a:hover{
+    text-decoration: none;
+
+  
+}
+.navbar-brand_{
+    display: none;
+    float: left;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+/* .navbar-expand-lg .navbar-collapse{
+    display: inline-block!important;
+} */
+
+@media (min-width: 992px){
+    .navbar-brand{
+        display: none ;
+    }
+    .navbar-brand_{
+        display: inline-block;
+    }
+    .navbar-expand-lg .navbar-collapse{
+        display: inline-block!important;
+    }
+}
+.btn-cart{
+    margin-left: 20px;
+    display: inline-block;
+    background-color: #000;
+    border: 1px #fff solid ;
+    border-radius: 5px;    
+    color:#fff; 
+    text-align: center;
+    padding: 5px;
+}
+.account_user{
+    margin-left: 10px;
+    display: inline-block;
+    background-color: #000;
+    text-align: center;
+    padding: 5px; 
+    color:#fff;
+}

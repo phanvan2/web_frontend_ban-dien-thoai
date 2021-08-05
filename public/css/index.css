@@ -1,0 +1,72 @@
+
+@import url("/public/css/slide.css");
+
+@import url("/public/css/navbar.css");
+/*------------------------*/
+
+/* css main  */
+hr{
+    width: 40%;
+    border-color: black;
+    height: 10px;
+    border-width: medium;
+    margin-left: 0px;
+}
+
+
+.card{
+    margin-top: 0px;
+    padding: 20px;
+    transition-duration: 0.5s;
+}
+.card-img-phone{
+    transition-duration: 0.5s;
+
+}
+.card:hover .card-img-phone{
+    transform:translateY(-20px) ;
+}
+
+.card-head .card-img-phone{
+    padding: 5px;
+}
+.card-body{
+    padding-bottom: 0px;
+}
+.card-body .name_phone{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color:#000; 
+}
+.card-body .name_phone:hover{
+    color: navy; 
+}
+.card-body .price{
+    font-size: 18px;
+    font-weight: bold;
+}
+.card-body .price-first{
+    text-decoration: line-through;
+    font-size: 15px; 
+}
+.card-fo{
+    display: inline-flex;
+
+}
+.card-fo .number_rate{
+    font-size: 16px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+@media(max-width:992px) {
+    hr{
+        margin: auto; 
+    }
+    .card{
+        margin-top: 20px; 
+        width:500px;
+    }
+
+
+}
