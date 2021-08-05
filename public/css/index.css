@@ -2,10 +2,12 @@
 @import url("slide.css");
 
 @import url("navbar.css");
+
+@import url("footer.css");
 /*------------------------*/
 
 /* css main  */
-hr{
+.hr-main{
     width: 40%;
     border-color: black;
     height: 10px;
@@ -60,7 +62,7 @@ hr{
     margin-bottom: auto;
 }
 @media(max-width:992px) {
-    hr{
+    .hr-main{
         margin: auto; 
     }
     .card{

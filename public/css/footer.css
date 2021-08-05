@@ -1,0 +1,27 @@
+footer{
+    margin-top: 30px;
+    background-color: #dcdcdc;
+}
+
+.footer-head{
+    display: inline-flex;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+.footer-boder-left{
+    border-right: solid;
+    border-color:darkgrey;
+}
+
+.title-footer{
+    font-size: 13px;
+}
+.content-footer{
+    font-size: 13px;
+    display: inline-block;
+    width: 80%;
+}
+.icon_contact i{
+    padding: 10px;
+}
