@@ -1,0 +1,54 @@
+
+@import url("navbar.css");
+
+@import url("footer.css");
+.container{
+    margin-top: 30px;
+}
+.trapezoid{
+
+    text-align: center  ;
+    border-bottom: 40px solid #429a9d;
+    border-left: 0px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 250px;
+    margin: 0 0 0 0;
+    
+    
+}
+.title{
+    padding: 5px 0 0 0 ;
+    font-size: 20px;	
+    color: white;
+}
+.icon{
+    font-size: 30px;
+}
+.progress{
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px
+}
+.imgsp{
+    width: 30%;
+}
+.soluongsp{
+    width: 50%;
+}
+
+.titletable{
+    background-color: #f9f9f9;
+    box-shadow: 5px 2px 5px 0px;
+
+}
+.lienhe{
+  padding: 30px 200px;
+  background-color: #f7f7f7;
+}
+.active{
+  color: green;
+  
+}  
+

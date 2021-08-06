@@ -5,6 +5,7 @@
     display: inline-block;
     width: 100%;
     background-color: #000;
+    height: 65px;
 }
 a.name-shop{
     font-weight: bold;
@@ -19,6 +20,9 @@ a.name-shop{
 .dropdown-menu{
     width: 500px;
     text-align: center;
+}
+.dropdown-signUP{
+    width: 20px;
 }
 
 .dropdown-menu .row a{
@@ -62,6 +66,9 @@ a.name-shop{
     text-align: center;
     padding: 5px;
 }
+.btn-cart:hover{
+    cursor: pointer;
+}
 .account_user{
     margin-left: 10px;
     display: inline-block;
@@ -69,4 +76,7 @@ a.name-shop{
     text-align: center;
     padding: 5px; 
     color:#fff;
+}
+.account_user:hover {
+    cursor: pointer;
 }
